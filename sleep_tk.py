@@ -517,7 +517,9 @@ class SleepTkApp():
         # if enabled, add alarm to log accel data in _FREQ seconds
         if self._state_body_tracking:
             wasp.watch.accel.reset()
-            # on one of my semi-broken pinetime watch I get 'comms failure' when trying to use the accelerometer
+            # both of my pinetime eventually started getting 'comms failure'
+            # when trying to use the accelerometer. I'm note sure if
+            # reflashing helped but disabling body tracking does.
             xyz = wasp.watch.accel.accel_xyz()
             self._accel_memory = array("f",
             (xyz[0], xyz[1], xyz[2]))  # contains previous accelerometer value

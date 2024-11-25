@@ -1,6 +1,9 @@
 # SleepTk : a sleep tracker and smart alarm for wasp-os
 **Goal:** privacy friendly sleep tracker with cool alarm features for the [pinetime smartwatch](https://pine64.com/product/pinetime-smartwatch-sealed/) by Pine64, on python, to run on [wasp-os](https://github.com/daniel-thompson/wasp-os).
 
+# Important: please read
+- As of November 2024, there's an ongoing project to port SleepTk's features to infinitime, which has a much better battery life. To stay up to date, take a look at [this issue](https://github.com/thiswillbeyourgithub/SleepTk_pinetime_sleep_tracker/issues/13).
+
 ## Features:
 * **Status: fully functional**: I've been using it **daily for maybe 3 years** on the same pinetime now (time of writing, october 2024). It's amidst my most useful project health-wise so far.
 * **Privacy friendly**: your data is not sent to anyone, it is stored directly on the watch (but you can still download it if needed).

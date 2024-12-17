@@ -3,6 +3,7 @@
 
 # Important: please read
 - I made [a public bounty](https://github.com/thiswillbeyourgithub/SleepTk_pinetime_sleep_tracker/issues/13) for anyone able to port SleepTk's features to [infinitime](https://github.com/InfiniTimeOrg/InfiniTime), because it has a much better battery life (2 days -> 21+ days!). @cyberneel stepped up and did it! To track the progress you can [go there](https://github.com/InfiniTimeOrg/InfiniTime/pull/2174).
+- You can read my small tutorial on how to transition from waspos to infinitime [here](./waspos_to_infinitime.md).
 - The wasp os version still works of course and as of December 2024 the features are about the same. It is planned to connect it to gadget bridge to automatically pull the sleep data from each nights.
 
 ## Features:

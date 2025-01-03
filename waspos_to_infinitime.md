@@ -5,6 +5,18 @@
 > This issue should be resolved soon, and this warning will be removed when all guides have been updated
 
 *This file contains notes I took when I switched from waspos to infinitime. It is not a proper tutorial. The original message was posted in november 2024 and can be found [here](https://github.com/thiswillbeyourgithub/SleepTk_pinetime_sleep_tracker/issues/13#issuecomment-2486362429)*
+---
+
+**Update of january 2025**: I confirm that all the steps can be done with gadgetbridge only.
+1. long press on the button on waspos to boot into dfu mode
+2. use gadgetbridge to connect to the watch (identifying as a pinetime test watch if needed)
+3. flash this: https://github.com/Peetz0r/wasp-reloader/releases/download/infinitime-0.14.1-recovery/reloader-infinitime-recovery-0.14.1.zip
+4. after it boot loops long press until the pineapple turns red then displays infinitime ligo
+5. flash this https://github.com/cyberneel/InfiniTime/releases/tag/1.0.6b9
+6. all done
+
+---
+
 
 - I initially followed this guide: https://pine64.org/documentation/PineTime/Software/Switching_between_InfiniTime_and_Wasp-os/
 

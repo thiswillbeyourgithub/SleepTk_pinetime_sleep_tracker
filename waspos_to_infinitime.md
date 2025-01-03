@@ -1,5 +1,9 @@
 # Notes on how I switched from wasp-os to infinisleep
 
+**Warning as of january 2025 from pine64:**
+> Do not attempt to change between infinitime and wasp-os on watches shipped with bootloader v1.0.1. Your device may be bricked and will require unsealing to revive it!
+> This issue should be resolved soon, and this warning will be removed when all guides have been updated
+
 *This file contains notes I took when I switched from waspos to infinitime. It is not a proper tutorial. The original message was posted in november 2024 and can be found [here](https://github.com/thiswillbeyourgithub/SleepTk_pinetime_sleep_tracker/issues/13#issuecomment-2486362429)*
 
 - I initially followed this guide: https://pine64.org/documentation/PineTime/Software/Switching_between_InfiniTime_and_Wasp-os/
